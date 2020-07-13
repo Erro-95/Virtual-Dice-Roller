@@ -1,0 +1,171 @@
+/* Global */
+
+body {
+    margin: 0;
+    font-size: 16px;
+    overflow: scroll;
+}
+
+div#window {
+    position: relative;
+    max-width: 100%;
+    min-height: 100%;
+    ;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+/* Navbar */
+
+div.navbar {
+    background-color: #A1D5FA;
+    height: 100px;
+    mix-blend-mode: normal;
+    box-shadow: 0px 6px 4px rgba(137, 175, 128, 0.25);
+}
+
+div.nav-items {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+div.navbar h1 {
+    padding: 0 2%;
+    font-size: 2.81rem;
+    width: 400px;
+    font-weight: 900;
+}
+
+/* Global mid-container */
+
+div.mid-container {
+    position: relative;
+    margin-top: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0 8%;
+}
+
+/* Card Container */
+
+div.card {
+    background-color: #C0E6FF;
+    width: 380px;
+    height: 550px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px #89AF80;
+}
+
+div.card-content {
+    padding: 10%;
+}
+
+div.question h2 {
+    font-size: 2rem;
+}
+
+.spacing {
+    margin-bottom: 25px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    margin: 80px 0;
+}
+
+span {
+    padding-left: 10px;
+    font-size: 1.5rem;
+}
+
+input {
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    background: #fff9d9;
+    outline: none;
+    cursor: -moz-zoom-in;
+}
+
+div.submit {
+    text-align: center;
+    margin-top: 60px;
+}
+
+button {
+    width: 236px;
+    height: 62px;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    background: #eff9cb;
+}
+
+div#game {
+    position: absolute;
+    left: 60%;
+    top: 4%;
+}
+
+
+h3,
+img {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    font-size: 1.5rem;
+}
+
+div.footer {
+    position: absolute;
+    width: 510px;
+    height: 64px;
+    right: 0rem;
+    top: 928px;
+    /* margin-left: auto; */
+    background: #A1D5FA;
+    border-radius: 112px 0 0 112px;
+    text-align: left;
+}
+
+img.dice {
+    width: 175px;
+}
+
+img {
+    width: 10%;
+}
+
+.github {
+    padding-left: 2%;
+    padding-right: 5px;
+}
+
+.linkedin {
+    padding-left: 5px;
+}
+
+@media (max-width: 1600px) {
+    div.footer {
+        position: absolute;
+        float: left;
+        width: 510px;
+        height: 64px;
+        /* right: -2em; */
+        margin-top: 3%;
+        top: unset;
+        /* margin-left: 69%; */
+        background: #A1D5FA;
+        border-radius: 112px 0 0 112px;
+        text-align: left;
+    }
+}

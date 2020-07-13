@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Dice Project</title>
+</head>
+
+<body>
+    <div id="window">
+        <div class="navbar">
+            <div class="nav-items">
+                <h1>Virtual Dice Roller</h1>
+            </div>
+        </div>
+        <div class="mid-container">
+            <div class="card">
+                <div class="card-content">
+                    <div class="num-players question">
+                        <h2 class="spacing">Number of Players:</h2>
+                        <input class="test" type="number" min="1" max="2" placeholder="0" required maxlength="1">
+                        <span>1 - 2 Players</span>
+                    </div>
+                    <hr>
+                    <div class="num-dice question">
+                        <h2 class="spacing">Number of Dice:</h2>
+                        <input class="test" type="number" min="1" max="2" placeholder="0" required maxlength="1">
+                        <span>1 - 2 Dice</span>
+                    </div>
+                    <div class="submit">
+                        <button id="btn" class="start-input">
+                            Generate & Roll
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div id="game">
+                <h3 id="player1">Player 1</h3>
+                <img class="dice dice1" src="images/dice1.png" alt="">
+                <h3 id="player2">Player 2</h3>
+                <img class="dice dice2" src="images/dice1.png" alt="">
+            </div>
+        </div>
+        <div class="footer">
+            <a class="github" href="https://github.com/Erro-95"><img src="Icons/Github.png" alt=""></a>
+            <a class="linkedin" href="https://www.linkedin.com/in/edwin-rodriguez-ortiz-320992160/"><img
+                    src="Icons/linkedin.png" alt=""></a>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+
+</html>
+
+
+
+
+
+
+<!-- 
+<body>
+    <header>
+        <h1>Virtual Dice Roller</h1>
+    </header>
+    <section id="game-board">
+        <p class="player">Player 1</p>
+        <img class="dice dice1" src="images/dice1.png" alt="Red dice displaying a randon number">
+        <p class="player">Player 2</p>
+        <img class="dice dice2" src="images/dice1.png" alt="Red dice displaying a randon number">
+        <br>
+        <button id="btn">Roll The Dice</button>
+    </section>
+</body>
+<footer>
+
+    <script src="index.js"></script>
+</footer> -->
