@@ -16,6 +16,20 @@ document.getElementById('btn').onclick = function () {
 		'images/dice6.png'
 	];
 
-	document.querySelector('.dice1').setAttribute('src', diceImgs[Math.floor(Math.random() * diceImgs.length)]);
-	document.querySelector('.dice2').setAttribute('src', diceImgs[Math.floor(Math.random() * diceImgs.length)]);
+	const random1 = Math.floor(Math.random() * diceImgs.length);
+	const random2 = Math.floor(Math.random() * diceImgs.length);
+
+	document.querySelector('.dice1').setAttribute('src', diceImgs[random1]);
+	document.querySelector('.dice2').setAttribute('src', diceImgs[random2]);
+
+	if (random1 > random2) {
+		document.querySelector('#player1').innerHTML = '🚩 Player 1 🚩';
+		document.querySelector('#player2').innerHTML = 'Player 2';
+	} else if (random1 < random2) {
+		document.querySelector('#player2').innerHTML = '🚩 Player 2 🚩';
+		document.querySelector('#player1').innerHTML = 'Player 1';
+	} else {
+		document.querySelector('#player1').innerHTML = 'Player 1';
+		document.querySelector('#player2').innerHTML = 'Player 2';
+	}
 };
