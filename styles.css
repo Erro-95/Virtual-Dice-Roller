@@ -171,7 +171,7 @@ img {
     }
 
     img {
-        width: 55px;
+        width: 40px;
     }
 
     img.dice {
@@ -181,7 +181,7 @@ img {
     div.footer {
         float: right;
         width: 25%;
-        height: 64px;
+        height: 50px;
         margin-top: 3%;
         background: #A1D5FA;
         border-radius: 112px 0 0 112px;
