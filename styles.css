@@ -105,6 +105,13 @@ button {
     border-radius: 20px;
     font-size: 1.5rem;
     background: #eff9cb;
+    transition-property: width, font-size;
+    transition-duration: 1s;
+}
+
+button:hover {
+    width: 280px;
+    font-size: 1.8rem;
 }
 
 div#game {
