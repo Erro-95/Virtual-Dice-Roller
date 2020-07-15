@@ -91,7 +91,6 @@ input {
     font-size: 1.5rem;
     background: #fff9d9;
     outline: none;
-    cursor: -moz-zoom-in;
 }
 
 div.submit {
@@ -107,6 +106,7 @@ button {
     background: #eff9cb;
     transition-property: width, font-size;
     transition-duration: 1s;
+    outline: none;
 }
 
 button:hover {
