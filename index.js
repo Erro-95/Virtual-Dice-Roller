@@ -1,7 +1,16 @@
 const valueInput = document.querySelector('.test');
 
 valueInput.addEventListener('keydown', (e) => {
-	if (e.which !== 49 && e.which !== 50 && e.which !== 8) {
+	if (
+		e.which !== 49 &&
+		e.which !== 50 &&
+		e.which !== 8 &&
+		e.which !== 9 &&
+		e.which !== 46 &&
+		e.which !== 13 &&
+		e.which !== 37 &&
+		e.which !== 39
+	) {
 		e.preventDefault();
 	}
 });
